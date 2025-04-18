@@ -19,7 +19,7 @@ ul {
     max-width: 1500px;
     margin: 0 auto;
 }
-.container {
+.header {
     padding: 24px;
     background-color: #1f2937;
     display: flex;
@@ -82,7 +82,7 @@ img {
 .info {
     display: flex;
     align-items: center;
-    padding: 24px;
+    padding: 24px 24px 66px 24px;
     flex-direction: column;
 }
 
@@ -111,6 +111,30 @@ img {
     border: 2px solid #3882f6;
     border-radius: 10px;
     background-color: #ffffff;
-    padding: 80px 72px;
-    
+    padding: 80px 72px;   
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 12rem;
+}
+.quote-text {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+    text-align: justify;
+}
+.signature {
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+}
+.quote-text, .signature {
+    color: #1f2937;
+    line-height: 1.2;
 }
